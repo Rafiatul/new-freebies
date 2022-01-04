@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+}
+
+.header-main{}
+.head-con{
+    background-image: url(./head-image.jpg);
+    background-repeat: repeat-x;
+    background-size: contain;
+    width: 100%;
+    height: 90vh;
+    background-attachment: fixed;
+    
+}
+.head-back{
+    background-color: #2e2e2e;
+   padding: 15px;
+   text-align: center;
+    
+    
+}
+.header-under {
+	width: 100%;
+	border: 1px solid #9f888a;
+	margin: 0 auto;
+	box-shadow: -3px 4px #a094955e;
+}
+.header-under img {
+	width: 20%;
+	margin: 0 auto;
+	text-align: center;
+	display: flex;
+}
+.head-text {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.head-text p {
+	color: white;
+	font-size: 27px;
+	font-weight: 700;
+	margin-right: 7px;
+}
+.head-text h1{
+    color: #f6aeae;
+    width: 0ch;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: text 15s steps(24) infinite alternate;
+    border-right: 3px solid #f6aeae;
+}
+@keyframes text{
+    0%{
+        width: 0ch;
+    }
+    50%{
+        width: 24ch;
+    }
+}
+
+/* ---header responsive */
+
+@media only screen and (max-width: 590px){
+    .head-text p {
+        color: white;
+        font-size: 18px;
+        font-weight: 700;
+        margin-right: 7px;
+    }
+    .head-text h1 {
+        color: #f6aeae;
+        width: 0ch;
+        overflow: hidden;
+        white-space: nowrap;
+        animation: text 15s steps(23) infinite alternate;
+        border-right: 3px solid #f6aeae;
+        font-size: 18px;
+    }
+}
+@media only screen and (max-width: 380px){
+    .head-text h1 {
+        color: #f6aeae;
+        width: 0ch;
+        overflow: hidden;
+        white-space: nowrap;
+        animation: text 15s steps(23) infinite alternate;
+        border-right: 3px solid #f6aeae;
+        font-size: 12px;
+    }
+    .head-text p {
+        color: white;
+        font-size: 12px;
+        font-weight: 700;
+        margin-right: 7px;
+    }
+    .head-con {
+        background-image: url(./head-image.jpg);
+        background-repeat: repeat-x;
+        background-size: contain;
+        width: 100%;
+        height: 40vh;
+        background-attachment: fixed;
+    }
+}

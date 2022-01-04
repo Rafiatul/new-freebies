@@ -1,0 +1,166 @@
+@media only screen and (max-width: 1320px) {
+    .card-area{
+        width: 90%;
+     
+    } 
+
+    .title h3 {
+        font-size: 19px;
+    }
+    .form-area form input {
+        font-size: 15px;
+    }
+
+    .left-area a {
+        font-size: 16px;
+        padding: 6px 20px 5px 20px;
+        top: 72.2%;
+    }
+    .left-area a span {
+        font-size: 11px;
+    }
+
+    .form-area form button {
+        height: 45px;
+        width: 45px;
+        font-size: 17px;
+        line-height: 17px;
+    }
+}
+
+@media only screen and (max-width: 1145px) {
+    .title h3 {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    form input:nth-child(2) {
+        top: 63.5%;
+    }
+    form input:first-child {
+        top: 54.7%;
+    }
+}
+
+
+@media only screen and (max-width: 1040px) {
+    .card-area {
+        padding-left: 0;
+    }
+    .left-area {
+        width: 100%;
+    }
+    .right-area {
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        margin-left: 10%;
+    }
+    .title h3 {
+        font-size: 28px;
+        line-height: 51px;
+    }
+    .form-area form input {
+        font-size: 19px;
+    }
+    form input:first-child {
+        top: 55.5%;
+    }
+    form input:nth-child(2) {
+        top: 64.3%;
+    }
+}
+
+@media only screen and (max-width: 840px) {
+
+    .title h3 {
+        font-size: 24px;
+        line-height: 41px;
+    }
+    form input:first-child {
+        top: 55%;
+    }
+    form input:nth-child(2) {
+        top: 64%;
+    }
+    .form-area form input {
+        font-size: 18px;
+    }
+}
+
+
+@media only screen and (max-width: 690px) {
+    .title h3 {
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .form-area form input {
+        font-size: 15px;
+    }
+    form input:first-child {
+        top: 54.9%;
+    }
+    form input:nth-child(2) {
+        top: 63.9%;
+    }
+}
+
+
+@media only screen and (max-width: 560px) {
+    .title h3 {
+        font-size: 16px;
+        line-height: 27px;
+    }
+    form input:first-child {
+        top: 54.4%;
+    }
+    form input:nth-child(2) {
+        top: 63.4%;
+    }
+    .form-area form input {
+        font-size: 14px;
+    }
+    .form-area form button {
+        height: 40px;
+        width: 40px;
+        font-size: 15px;
+        line-height: 14px;
+    }
+    .left-area a {
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 12px;
+    }
+    .left-area a span {
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width: 470px) {
+    .card-area {
+        width: 97%;
+    }
+}
+
+
+@media only screen and (max-width: 415px) {
+    .left-area a {
+        font-size: 12px;
+        padding: 5px 15px 4px 15px;
+    }
+
+    .left-area a span {
+        font-size: 8px;
+    }
+    .title h3 {
+        font-size: 13px;
+        line-height: 22px;
+    }
+    .form-area form input {
+        font-size: 12px;
+    }
+    .form-area form button {
+        height: 36px;
+        width: 36px;
+        font-size: 14px;
+        line-height: 13px;
+    }
+}
